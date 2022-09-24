@@ -9,6 +9,7 @@ body{
     display: flex;
     margin-top: 50px;
     margin-left: 70px;
+    margin-bottom: 100px;
 
 }
 .half-width{
@@ -38,8 +39,54 @@ p{
     font-weight: 400;
     color: white;
     box-shadow: 10px 10px 30px tomato;
+
     
 }
 #kk{
     padding-bottom: 30px;
+}
+.section2{
+    display: flex;
+    background-image: url(/images/7.png);
+    height: 600px;
+
+}
+.section2 .half-width img{
+    height: 536px;
+    width: 338px;
+}
+.section2 .half-width{
+    padding-left: 100px;
+}
+.section3{
+    text-align: center;
+}
+.section3 p{
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+}
+.section4{
+    display: flex;
+}
+.half-rep1{
+    width: 50%;
+    margin-left: 5%;
+    padding: 20px 40px;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+        border-radius: 30px;
+}
+.half-rep2{
+    width: 50%;
+    margin-right: 5%;
+    padding: 20px 40px;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+        border-radius: 30px;
+}
+.half-rep1 img{
+    width: 100%
+}
+.half-rep2 img {
+    width: 100%
 }
